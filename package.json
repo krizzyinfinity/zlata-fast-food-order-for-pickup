@@ -9,10 +9,29 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "eslint": "8.27.0",
-    "eslint-config-next": "13.0.2",
+    "@emotion/react": "^11.10.5",
+    "@emotion/server": "^11.10.0",
+    "@emotion/styled": "^11.10.5",
+    "@mui/icons-material": "^5.10.9",
+    "@mui/material": "^5.10.13",
+    "@portabletext/react": "^2.0.0",
+    "@sanity/client": "^3.4.1",
+    "@sanity/image-url": "^1.0.1",
+    "@stripe/stripe-js": "^1.42.1",
+    "axios": "^1.2.0",
+    "eslint": "^8.27.0",
+    "eslint-config-next": "^13.0.2",
     "next": "13.0.2",
+    "next-sanity": "^1.0.9",
+    "next-sanity-image": "^5.0.0",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-hot-toast": "^2.4.0",
+    "react-icons": "^4.6.0",
+    "stripe": "^10.16.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.2",
+    "@babel/preset-react": "^7.18.6"
   }
 }
