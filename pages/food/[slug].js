@@ -15,7 +15,7 @@ const ProductDetails = ({food, food2}) => {
   return (
     <Box sx={{mt:4,height:"100vh", display:"flex", alignItems:"top",
     justifyContent:"space-between",flexWrap:"wrap",
-    ml:{xs:25, sm:20, md:10, xl:20}}}>
+    ml:{xs:15, sm:20, md:10, xl:20}}}>
     
        
             <Box >
@@ -30,7 +30,7 @@ const ProductDetails = ({food, food2}) => {
             }} variant="h5">{description}</Typography>
             <span style={{fontWeight:"bold", fontSize:"150%"}}> euros{price}</span>
             </Box>
-            <Box sx={{pt:3, mr:{xl:30, md:8
+            <Box sx={{ mr:{xl:30, md:8
             }}}>
             <Typography sx={{fontWeight:"bold", mr:2}} variant="h6">Quantity:</Typography>
            

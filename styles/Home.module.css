@@ -1,5 +1,6 @@
 .container {
     padding: 0 2rem;
-    margin: auto;
-   
+    justify-content: center;
+    display: block;
+    align-items: center;
   }

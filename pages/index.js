@@ -11,7 +11,7 @@ import { urlFor } from '../lib/client'
 const Home = ({food, banner}) => {
   return (
     <Box className={styles.container} sx={{width:{xs:700,
-    sm:900, md:"90vw"}}}>
+      sm:900, md:"90vw"}}}>
       <HeroBanner  heroBanner = {banner.length && banner[0]} />
      {console.log(banner)}
       <Box sx={{textAlign:"center",mt:5}}>
